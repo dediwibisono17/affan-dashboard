@@ -190,6 +190,7 @@ body {
         opacity: 0;
         color: #545D69;
         pointer-events: none;
+        vertical-align: top;
         transition: all 0.3s ease;
     }
     .content {
@@ -475,48 +476,48 @@ i {
 }
 
 .dashboard {
-    mask: url('../img/dashboard') no-repeat center / contain;
-    -webkit-mask: url('../img/dashboard') no-repeat center / contain;
+    mask: url('../img/dashboard.png') no-repeat center / contain;
+    -webkit-mask: url('../img/dashboard.png') no-repeat center / contain;
 }
 
 .daftar {
-    mask: url('../img/daftar') no-repeat center / contain;
-    -webkit-mask: url('../img/daftar') no-repeat center / contain;
+    mask: url('../img/daftar.png') no-repeat center / contain;
+    -webkit-mask: url('../img/daftar.png') no-repeat center / contain;
 }
 
 .list {
-    mask: url('../img/list') no-repeat center / contain;
-    -webkit-mask: url('../img/list') no-repeat center / contain;
+    mask: url('../img/list.png') no-repeat center / contain;
+    -webkit-mask: url('../img/list.png') no-repeat center / contain;
 }
 
 .pengaturan {
-    mask: url('../img/pengaturan') no-repeat center / contain;
-    -webkit-mask: url('../img/pengaturan') no-repeat center / contain;
+    mask: url('../img/pengaturan.png') no-repeat center / contain;
+    -webkit-mask: url('../img/pengaturan.png') no-repeat center / contain;
 }
 
 .logout {
-    mask: url('../img/logout') no-repeat center / contain;
-    -webkit-mask: url('../img/logout') no-repeat center / contain;
+    mask: url('../img/logout.png') no-repeat center / contain;
+    -webkit-mask: url('../img/logout.png') no-repeat center / contain;
 }
 
 .bantuan {
-    mask: url('../img/bantuan') no-repeat center / contain;
-    -webkit-mask: url('../img/bantuan') no-repeat center / contain;
+    mask: url('../img/bantuan.png') no-repeat center / contain;
+    -webkit-mask: url('../img/bantuan.png') no-repeat center / contain;
 }
 
 .qna {
-    mask: url('../img/qna') no-repeat center / contain;
-    -webkit-mask: url('../img/qna') no-repeat center / contain;
+    mask: url('../img/qna.png') no-repeat center / contain;
+    -webkit-mask: url('../img/qna.png') no-repeat center / contain;
 }
 
 .laporan {
-    mask: url('../img/laporan') no-repeat center / contain;
-    -webkit-mask: url('../img/laporan') no-repeat center / contain;
+    mask: url('../img/laporan.png') no-repeat center / contain;
+    -webkit-mask: url('../img/laporan.png') no-repeat center / contain;
 }
 
 .pengajuan {
-    mask: url('../img/pengajuan') no-repeat center / contain;
-    -webkit-mask: url('../img/pengajuan') no-repeat center / contain;
+    mask: url('../img/pengajuan.png') no-repeat center / contain;
+    -webkit-mask: url('../img/pengajuan.png') no-repeat center / contain;
 }
 
 .colored {
@@ -526,8 +527,8 @@ i {
     }
     .icons {
         background-color: #00549E;
-        // mask: url('../img/list') no-repeat center / contain;
-        // -webkit-mask: url('../img/list') no-repeat center / contain;
+        // mask: url('../img/list.png') no-repeat center / contain;
+        // -webkit-mask: url('../img/list.png') no-repeat center / contain;
     }
 }
 
