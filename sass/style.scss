@@ -593,8 +593,10 @@ i {
         display: inline-block;
         // border: 1px solid;
         vertical-align: top;
+        padding-top: 12px;
         @media screen and(max-width: 766px) {
             width: 10%;
+            padding-top: 0;
         }
         img {
             width: 30px;
