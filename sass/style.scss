@@ -552,7 +552,8 @@ i {
     }
     &-left {
         display: inline-block;
-        vertical-align: middle;
+        // border: 1px solid;
+        vertical-align: top;
         @media screen and(max-width: 766px) {
             vertical-align: top;
             width: 50%;
@@ -561,6 +562,9 @@ i {
     }
     &-middle {
         display: inline-block;
+        // border: 1px solid;
+        width: 100px;
+        vertical-align: top;
         @media screen and(max-width: 766px) {
             width: 10%;
         }
@@ -568,6 +572,7 @@ i {
             width: 60px;
             height: 60px;
             border-radius: 50%;
+            display: inline-block;
             @media screen and (max-width: 766px) {
                 width: 45px;
                 height: 45px;
@@ -579,11 +584,17 @@ i {
                 object-fit: cover;
             }
         }
+        .dropdown {
+            display: inline-block;
+            cursor: pointer;
+        }
     }
     &-right {
         display: inline-block;
+        // border: 1px solid;
+        vertical-align: top;
         @media screen and(max-width: 766px) {
-            width: 17%;
+            width: 10%;
         }
         img {
             width: 30px;
