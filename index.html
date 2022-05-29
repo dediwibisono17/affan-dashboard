@@ -38,20 +38,34 @@
                         <!-- <img src="img" alt=""> -->
                         <div class="icons list"></div>
                         <span class="links_name">List Klaster</span>
+                        
                     </a>
                     <span class="tooltip">List Klaster</span>
                 </li>
-                <li>
-                    <a href="#">
-                        <div class="icons daftar"></div>
-                        <span class="links_name">Daftar Klaster</span>
-                    </a>
-                    <span class="tooltip">Daftar Klaster</span>
+                <li class="show-more">
+                    <div class="parent">
+                        <a href="#">
+                            <div class="icons daftar"></div>
+                            <span class="links_name">Daftar Klaster</span>
+                            <div class="help-arrow"><img src="img/arrow-white.png" alt=""></div>
+                        </a>
+                        <span class="tooltip">Daftar Klaster</span>
+                    </div>
+                    <div class="children">
+                        <div class="parent">
+                            <a href="#">
+                                <!-- <div class="icons daftar"></div> -->
+                                <span class="links_name">Daftar Klaster Anak</span>
+                            </a>
+                            <span class="tooltip">Daftar Klaster Anak</span>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <div class="icons pengajuan"></div>
                         <span class="links_name">Pengajuan Klaster</span>
+                        <div class="notif-number">100</div>
                     </a>
                     <span class="tooltip">Pengajuan Klaster</span>
                 </li>
@@ -281,6 +295,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
+    
 </body>
 
 </html>
